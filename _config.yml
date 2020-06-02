@@ -1,15 +1,13 @@
-# Theme
+# Theme - DON'T EDIT
 remote_theme: 'peppelongo96/find-me-page@theme'
-
-# Advanced settings
 plugins: 
   - jekyll-remote-theme
 
-# Title and tag line
+# Titles
 title: ''
 tab_title: ''
 
-# Tracking - Visit https://freehitcounters.org/ and get your ID
+# Visitors badge: go to https://freehitcounters.org/ and get your ID
 id_visitors_badge:
 
 # Copyright author
@@ -20,7 +18,7 @@ avatar: 'avatar.jpg'
 background: 'background.jpg'
 favicon: 'favicon.ico'
 
-# Online profiles
+# Social links
 facebook: ''
 twitter: ''
 linkedin: ''
