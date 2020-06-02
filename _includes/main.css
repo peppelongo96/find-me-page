@@ -78,6 +78,9 @@ a[target="icons"] {
     padding: 15px;
     text-decoration: none;
 }
+a[target="hide_visitors_badge_ads"] {
+	display: none;
+}
 .description {
     display: none;
 }
