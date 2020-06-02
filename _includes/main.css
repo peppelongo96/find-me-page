@@ -87,7 +87,7 @@ footer {
 	color: white;
 	font-size: 17px;
 }
-.ads_disabled {
+.hide_visitor_badge_ads {
     pointer-events: none;
     cursor: default;
 	color: transparent;
