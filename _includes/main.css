@@ -87,6 +87,11 @@ footer {
 	color: white;
 	font-size: 17px;
 }
+.ads_disabled {
+    pointer-events: none;
+    cursor: default;
+	color: transparent;
+}
 @media (max-width: 450px) {
 ul {
     text-align: center;
