@@ -7,12 +7,12 @@ plugins:
 title: ''
 tab_title: ''
 
-# Visitors badge
-# INSTRUCTIONS
+# Visitors badge 
+# INSTRUCTIONS or jump and leave blank if you don't want it
 # - Go to https://freehitcounters.org/
 # - Select your favourite badge and generate the HTML code
 # - Search for "... <script type="text/javascript" src="https://freehitcounters.org/count/_CODE_"> ..." and copy CODE to the following counter_code_visitors_badge
-# - Search for "... id=_ID_" and copy ID to the following id_visitors_badge
+# - Search for "... id=_ID_" and copy ID to the following id_visitors_badge 
 counter_code_visitors_badge:
 id_visitors_badge:
 
