@@ -3,5 +3,8 @@
 
 This project is heavy-edited from the original [front-cover](https://github.com/dashingcode/front-cover) idea.
 
-## How-to-use
-- Use page branch as [template](https://github.com/peppelongo96/find-me-page/generate)
+## How-to
+- Use the default [page](https://github.com/peppelongo96/find-me-page/tree/page) branch as [template](https://github.com/peppelongo96/find-me-page/generate)
+- Setup new repo name according [to GitHub Pages guidelines](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
+- Configure '_config.yml' as your pleasure
+- Enjoy!
