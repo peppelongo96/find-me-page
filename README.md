@@ -1,9 +1,9 @@
 # find-me-page
-[![GitHub license](https://img.shields.io/github/license/peppelongo96/find-me-page.svg)](https://github.com/peppelongo96/find-me-page/blob/theme/LICENSE) [![made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-1f425f.svg)]() [![GitHub contributors](https://img.shields.io/github/contributors/peppelongo96/find-me-page.svg)](https://GitHub.com/peppelongo96/find-me-page/graphs/contributors/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://peppelongo96.github.io)
+[![GitHub license](https://img.shields.io/github/license/peppelongo96/find-me-page.svg)](https://github.com/peppelongo96/find-me-page/blob/page/LICENSE) [![made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-1f425f.svg)]() [![GitHub contributors](https://img.shields.io/github/contributors/peppelongo96/find-me-page.svg)](https://GitHub.com/peppelongo96/find-me-page/graphs/contributors/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://peppelongo96.github.io)
 
 **A friendly project to easly publish your digital *contact-me* card. See my [demo](https://peppelongo96.github.io/).**
 
-This project is *heavy-edited* fork of the [cover-card](https://github.com/epidrome/cover-card/tree/master) repo.
+This project is an *heavily-edited* fork of the [cover-card](https://github.com/epidrome/cover-card/tree/master) repo.
 
 ## How-to
 1. Use the default [page](https://github.com/peppelongo96/find-me-page/tree/page) branch as [template](https://github.com/peppelongo96/find-me-page/generate)
