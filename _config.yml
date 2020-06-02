@@ -11,10 +11,16 @@ tab_title: ''
 # INSTRUCTIONS or jump and leave blank if you don't want it
 # - Go to https://freehitcounters.org/
 # - Select your favourite badge and generate the HTML code
-# - Search for "... <script type="text/javascript" src="https://freehitcounters.org/count/_CODE_"> ..." and copy CODE to the following counter_code_visitors_badge
-# - Search for "... id=_ID_" and copy ID to the following id_visitors_badge 
+# - Compare with this template and fill the following as indicate:
+#
+#  <script type="text/javascript" src="https://freehitcounters.org/count/__COUNTER_CODE_VISITORS_BADGE__"></script><br>
+#  <a href='__ADS_HREF_VISITORS_BADGE__'>__ADS_HREF_LABEL_VISITORS_BADGE__</a> 
+#  <script type='text/javascript' src='https://whomania.com/ctr?id=__ID_VISITORS_BADGE__'></script>
+#
 counter_code_visitors_badge:
 id_visitors_badge:
+ads_href_visitors_badge:
+ads_href_label_visitors_badge: 
 
 # Copyright author
 author: peppelongo96
