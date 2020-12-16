@@ -26,9 +26,9 @@ ads_href_label_visitors_badge:
 author: peppelongo96
 
 # Images
-avatar: 'avatar.jpg'
-background: 'background.jpg'
-favicon: 'favicon.ico'
+avatar: ''
+background: ''
+favicon: ''
 
 # Social links
 facebook: ''
