@@ -62,6 +62,7 @@ social-links-order: [phone, email, linkedin, github, whatsapp, telegram, faceboo
 #     - font-awesome free and supports `fas` (solid) and `fab` (brands) styles
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
+
 social-links:
   - name: facebook
     url-pattern: facebook.com/__USERNAME__
