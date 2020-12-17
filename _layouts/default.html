@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	{% include tracking.html %}
+        {% include tracking.html %}
         {% include head.html %}
         <style type="text/css">
         {% include main.css %}
@@ -13,4 +13,7 @@
           {{ content }}
 	  {% include footer.html %}
     </body>
+    <div class="preloader">
+        <img src="spinner.svg" alt="spinner">
+    </div>  
 </html>
