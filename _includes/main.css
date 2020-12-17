@@ -1,12 +1,11 @@
 body {
     font-family: Helvetica,Arial,sans-serif;
-	position: absolute;
+	position: relative;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: 0;
-	overflow-x: hidden;
 }
 #fullscreen {
         top: 0;
