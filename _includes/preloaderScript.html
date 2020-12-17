@@ -9,6 +9,7 @@ const fadeEffect = setInterval(() => {
 		preloader.style.opacity -= 0.1;
 	} else {
 		clearInterval(fadeEffect);
+		preloader.visibility = hidden;
 	}
 }, 200);
 
