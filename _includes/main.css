@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica,Arial,sans-serif;
-	position: absolute;
+	/* position: absolute; */
 	/* Midnght city gradient (default) */
 	background: #232526;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
