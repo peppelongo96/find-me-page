@@ -25,7 +25,7 @@ body {
 	}
 #avatar {
 	/*square shape avatar*/
-	width: 175px;
+	width: 180px;
 	overflow: hidden;
 	display: inline-block;
 	background-size: cover;
