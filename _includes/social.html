@@ -8,7 +8,6 @@
     {% else %}
         {% assign links = site.social-links %}
     {% endif %}
-
     {% for link in links %}
         {% assign username = site[link.name] %}
         {% if username %}
