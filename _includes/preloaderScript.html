@@ -7,7 +7,6 @@ const fadeEffect = setInterval(() => {
 	if (preloader.style.opacity > 0) {
 		preloader.style.opacity -= 0.2;
 	} else {
-		preloader.style.visibility = "hidden";
 		clearInterval(fadeEffect);
 	}
 }, 200);
