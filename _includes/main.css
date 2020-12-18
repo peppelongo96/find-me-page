@@ -137,7 +137,7 @@ footer {
   	width: auto;
 	}
 	li:hover {
-  	background-color: none;
+  	background-color: transparent;
   	transition: none;
 	}
 	a[target="icons"] {
