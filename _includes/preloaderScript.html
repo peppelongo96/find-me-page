@@ -1,14 +1,9 @@
-const preloader = document.querySelector('.preloader');
-
-const fadeEffect = setInterval(() => {
-	if (!preloader.style.opacity) {
-		preloader.style.opacity = 1;
-	}
-	if (preloader.style.opacity > 0) {
-		preloader.style.opacity -= 0.1;
-	} else {
-		clearInterval(fadeEffect);
-	}
-}, 200);
-
-window.addEventListener('load', fadeEffect);
+document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector("#loader").style.visibility = "visible"; 
+    } else { 
+        document.querySelector("#loader").style.display = "none"; 
+        document.querySelector("body").style.visibility = "visible"; 
+    } 
+};
