@@ -1,13 +1,13 @@
 <footer>
-   <p style="margin: 0px">
-     <script type="text/javascript" src="https://freehitcounters.org/count/{{ site.counter_code_visitors_badge }}"></script><br>
-     <a href='{{ site.ads_href_visitors_badge }}' class="hide_visitor_badge_ads">{{ site.ads_href_label_visitors_badge }}</a>
-	 <script type='text/javascript' src='https://whomania.com/ctr?id={{ site.id_visitors_badge }}'></script>
-   </p>
+	<p style="margin: 0px">
+		<script type="text/javascript" src="https://freehitcounters.org/count/{{ site.counter_code_visitors_badge }}"></script><br>
+		<a href='{{ site.ads_href_visitors_badge }}' class="hide_visitor_badge_ads">{{ site.ads_href_label_visitors_badge }}</a>
+		<script type='text/javascript' src='https://whomania.com/ctr?id={{ site.id_visitors_badge }}'></script>
+	</p>
    &copy; <span id="js-current-year"></span> {{ site.author }}
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-  let today = new Date();
-  $('#js-current-year').text(today.getFullYear());
+	let today = new Date();
+	$('#js-current-year').text(today.getFullYear());
 </script>
