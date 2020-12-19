@@ -11,12 +11,12 @@
     {% for link in links %}
         {% assign username = site[link.name] %}
         {% if username %}
-        {% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
-        <li>
-          <a target="icons" class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
-            <span class="description">{{ link.name }}</span>
-          </a>
-        </li>
+			{% assign default-icon-class = "fab fa-2x fa-" | append: link.name %}
+			<li>
+				<a target="icons" class="{{ link.icon-class | default: default-icon-class }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-pattern | replace: '__USERNAME__', username }}">
+				<span class="description">{{ link.name }}</span>
+			</a>
+			</li>
         {% endif %}
     {% endfor %}
 </ul>
