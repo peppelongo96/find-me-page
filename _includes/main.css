@@ -185,3 +185,18 @@ footer {
         padding-top: 60px;
     }
 }
+
+@media(max-width: 377px) {
+	h1 {
+		font-size: 3em;
+	}
+	a[target="icons"] {
+        text-align: center;
+        padding-left: 15px;
+        width: 20% ;
+    }
+	.description {
+        display: none;
+    }
+}
+
