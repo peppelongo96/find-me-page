@@ -1,7 +1,7 @@
 .preloader {
-    border: 12px solid # f3f3f3;
-    border-radius: 50 % ;
-    border-top: 12px solid # 444444;
+    border: 12px solid #f3f3f3;
+    border-radius: 50% ;
+    border-top: 12px solid #444444;
     width: 70px;
     height: 70px;
     animation: spin 1s linear infinite;
@@ -21,9 +21,9 @@
 body {
     font-family: Helvetica,Arial,sans-serif;
     /* Midnght city gradient (default) */
-    background: # 232526; /* fallback for old browsers */
-    background: -webkit - linear - gradient(to right,  # 414345,  # 232526); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear - gradient(to right,  # 414345,  # 232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	/* position: absolute; */
     top: 0;
     bottom: 0;
@@ -87,7 +87,7 @@ li {
     border: 2px transparent;
     color: white;
     margin: 8px;
-    display: inline - block;
+    display: inline-block;
     list-style: none;
     width: 68px;
     height: 68px;
