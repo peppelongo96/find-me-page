@@ -1,25 +1,28 @@
 <div class="loader_overlay"></div>
 <div class="loader">Loading...</div>
 <script>
+	const body = document.querySelector('body');
+	const loader_overlay = document.querySelector('.loader_overlay');
+	const loader = document.querySelector('.loader');
 	document.onreadystatechange = function() { 
 		if (document.readyState !== "complete") {
-			document.querySelector("body").style.visibility = "hidden";
-			document.querySelector(".loader_overlay").style.visibility = "visible";
-			document.querySelector(".loader").style.visibility = "visible";
+			body.style.visibility = "hidden";
+			loader_overlay.style.visibility = "visible";
+			loader.style.visibility = "visible";
 		} else {
-			document.querySelector("body").style.visibility = "visible";
-			document.querySelector(".loader").style.display = "none";
+			body.style.visibility = "visible";
+			loader.style.display = "none";
 			const fadeEffect = setInterval(() => {
-				if (!document.querySelector(".loader_overlay").style.opacity) {
-					document.querySelector(".loader_overlay").style.opacity = 1;
+				if (!loader_overlay.style.opacity) {
+					loader_overlay.style.opacity = 1;
 				}
-				if (document.querySelector(".loader_overlay").style.opacity > 0) {
-					document.querySelector(".loader_overlay").style.opacity -= 0.1;
+				if (loader_overlay.style.opacity > 0) {
+					loader_overlay.style.opacity -= 0.1;
 				} else {
-					document.querySelector(".loader_overlay").style.display = "none";
+					loader_overlay.style.display = "none";
 					clearInterval(fadeEffect);
 				}
-			}, 100);
+			}, 200);
 		}
 	};
 </script>
