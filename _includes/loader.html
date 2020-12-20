@@ -1,15 +1,14 @@
-<!-- <div class="preloader_overlay"></div> -->
-<!-- <div class="preloader"></div> -->
+<div class="loader_overlay"></div>
 <div class="loader">Loading...</div>
 <script>
 	document.onreadystatechange = function() { 
 	if (document.readyState !== "complete") {
 		document.querySelector("body").style.visibility = "hidden";
-		<!-- document.querySelector(".preloader_overlay").style.visibility = "visible"; -->
+		document.querySelector(".loader_overlay").style.visibility = "visible";
 		document.querySelector(".loader").style.visibility = "visible";
 	} else {
 		document.querySelector(".loader").style.display = "none";
-		<!-- document.querySelector(".preloader_overlay").style.display = "none"; -->
+		document.querySelector(".loader_overlay").style.display = "none";
 		document.querySelector("body").style.visibility = "visible";
 	} 
 };
