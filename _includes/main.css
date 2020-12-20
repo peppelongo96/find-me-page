@@ -233,10 +233,14 @@ footer {
 	h1 {
 		font-size: 3.2em;
 	}
+	li {
+		display: inline-block;
+	}
 	a[target="icons"] {
         text-align: center;
+		border: none;
         padding-left: 15px;
-        width: 15% ;
+        width: auto;
     }
 	.description {
         display: none;
