@@ -2,14 +2,24 @@
 <div class="loader">Loading...</div>
 <script>
 	document.onreadystatechange = function() { 
-	if (document.readyState !== "complete") {
-		document.querySelector("body").style.visibility = "hidden";
-		document.querySelector(".loader_overlay").style.visibility = "visible";
-		document.querySelector(".loader").style.visibility = "visible";
-	} else {
-		document.querySelector(".loader").style.display = "none";
-		document.querySelector(".loader_overlay").style.display = "none";
-		document.querySelector("body").style.visibility = "visible";
-	} 
-};
+		if (document.readyState !== "complete") {
+			document.querySelector("body").style.visibility = "hidden";
+			document.querySelector(".loader_overlay").style.visibility = "visible";
+			document.querySelector(".loader").style.visibility = "visible";
+		} else {
+			document.querySelector("body").style.visibility = "visible";
+			document.querySelector(".loader").style.display = "none";
+			const fadeEffect = setInterval(() => {
+				if (!document.querySelector(".loader_overlay").style.opacity) {
+					document.querySelector(".loader_overlay").style.opacity = 1;
+				}
+				if (document.querySelector(".loader_overlay").style.opacity > 0) {
+					document.querySelector(".loader_overlay").style.opacity -= 0.2;
+				} else {
+					document.querySelector(".loader_overlay").style.display = "none";
+					clearInterval(fadeEffect);
+				}
+			}, 100);
+		}
+	};
 </script>
